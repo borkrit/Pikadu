@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+header{
+    height: 64px;
+    width: 100%;
+    background: #FA8C16;
+}
+.container{
+    margin-left: 125px;
+    margin-right: 120px;
+}
+.title-logo{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.meny{
+    display: flex;
+    list-style: none;
+    margin-left: 58px;
+}
+.meny-link{
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 15px;
+}
+.meny-link:last-child{
+    margin-right: 0;
+}
+.meny-link>a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+.meny-link>a:hover{
+    text-decoration: underline;
+    color: #28f100;
+    transition: all 0.3s;
+}
+.header{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.input-search{
+    width: 236px;
+    height: 32px;
+    margin-top: -4px;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    border: none;
+    border-radius: 2px;
+}
+.input-search::placeholder{
+    color: #BFBFBF;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 14px;
+    line-height: 22px;
+    margin-left: 12px; */
+}
